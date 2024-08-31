@@ -4,6 +4,8 @@ import Header from './Header';
 import BookList from './BookList';
 import AddBook from './AddBook';
 import Header_two from './Header_two';
+import Footer from './footer';
+
 
 function App() {
   const [books, setBooks] = useState([
@@ -23,6 +25,7 @@ function App() {
       <div className="container mx-auto p-4">
         <AddBook addBook={addBook} />
         <BookList books={books} />
+        <Footer/>
       </div>
     </div>
   );
