@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header title="Library Management System" />
-      <Header_two/>
+
       <div className="container mx-auto p-4">
         <AddBook addBook={addBook} />
         <BookList books={books} />
