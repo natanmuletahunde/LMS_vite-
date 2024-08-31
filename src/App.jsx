@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Header from './Header';
 import BookList from './BookList';
 import AddBook from './AddBook';
-import './App.css';
 
 function App() {
   const [books, setBooks] = useState([
